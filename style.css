@@ -1,0 +1,99 @@
+body{
+    background-color:beige;
+    
+}
+.topTitle{
+    text-align:center; 
+    margin:1em;
+    margin-top:9%;
+  
+}
+.topContainer{
+    border:solid darkred;
+    padding:1em;
+    /* height:42vh; */
+    margin:1em;
+    display:flex;
+    border-radius: 22px;
+    justify-content: space-evenly;
+}
+.midContainer{
+    border:solid darkred;
+    height:42vh;
+    margin: 1em;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 22px;
+}
+.midTitle{
+    text-align:center; 
+    margin: 1em;
+    margin-top: 9%;
+}
+.lowContainer{
+    border:solid darkred;
+    height:42vh;
+    margin: 1em;
+    border-radius: 22px;
+}
+.phaseContainer{
+    border:solid black;
+    border-style:dotted;
+    border-radius: 22px;
+    border-width:.2px;
+}
+.phase{
+    display:flex;
+    padding: 1em;
+    
+}
+.phase:hover{
+    background-color:white;
+    border: solid darkred;
+    transition: .1s;
+    display:flex;
+    padding: 1em;
+    border-radius: 22px;
+}
+.pTitle{
+    width: 50%;
+    text-align:center;
+    font-size:20px;
+    display: flex;
+
+}
+.description{
+    padding: 12px;
+    width: 50%;
+    text-align: right;
+
+}
+/* .attContainer{ */
+
+/* } */
+
+.attnBtn{
+    border:solid darkred;
+    border-width:.2px;
+    height:20px;
+    margin: 0.5em;
+    text-align:center;
+    width: 100%;
+    font-size:18px;
+    background-color: black;
+    color: white;
+    cursor:pointer
+
+}
+.attnBtn:hover{
+    border:solid plum;
+    border-width:.2px;
+    height:20px;
+    margin: 0.5em;
+    text-align:center;
+    width:100%;
+    font-size:18px;
+    background-color:darkred;
+    color: white;
+
+}
